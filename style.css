@@ -1,0 +1,118 @@
+.center {
+  height: 120px;
+  width: 600px;
+  display: grid;
+  margin: 0 auto;
+  padding-top: 20vh;
+  position: absolute;
+  width: 100%;
+}
+
+.search-container {
+  margin: 0 auto;
+  position: relative;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.right {
+  float: right;
+}
+
+.top-nav {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.bottom-nav {
+  font-size: 15px;
+}
+
+#apps-icon {
+  vertical-align: middle;
+}
+
+#search-icon {
+  position: absolute;
+  padding: 11px 0px 10px 13px;
+  left: 0;
+}
+
+#mic-icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  padding: 11px 13px 10px 0px;
+  right: 0;
+}
+
+#logo {
+  width: auto;
+  margin: 0px auto 25px auto;
+
+}
+
+#search-bar {
+  margin: 0 auto;
+  height: 45px;
+  width: 582px;
+  border-radius: 42px;
+  border-width: thin;
+  border-color: lightgray;
+  border-style: solid;
+}
+
+#sign-in {
+  height: 30px;
+  width: 70px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(0deg, #4387fd,#4683ea);
+  border-radius: 3px;
+  border: none;
+  font-weight: bold;
+}
+
+#google-search, #feeling-lucky {
+  height: 36px;
+  width: 130px;
+  color: #5F6368;
+  border: none;
+  border-radius: 3px;
+  margin: 30px 10px 0 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 20px 10px 20px;
+}
+
+li {
+  display: inline;
+  margin: 0 9px 0 9px;
+}
+
+footer {
+  height: 40px;
+  background-color: #f2f2f2;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 0;
+  color: gray;
+}
+
+body {
+  margin: 0;
+  font-family: arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
